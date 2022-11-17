@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  apiEndPoints:{
+    demo1:'https://reqres.in/',
+    demo2:'https://jsonplaceholder.typicode.com',
+    futureDomain:''
+  },
+
+  apiEndPointsServerVersion:1
 };
 
 /*
